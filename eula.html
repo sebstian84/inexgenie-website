@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InExGenie – Nutzungsbedingungen / EULA</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            padding: 24px 16px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0 32px;
+        }
+        header h1 { font-size: 2.2rem; font-weight: 700; color: #1d1d1f; letter-spacing: -0.02em; }
+        header p { color: #6e6e73; margin-top: 8px; font-size: 1rem; }
+        .nav-links {
+            display: flex; gap: 16px; justify-content: center; margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+        .nav-links a { color: #0071e3; text-decoration: none; font-weight: 500; }
+        .nav-links a:hover { text-decoration: underline; }
+        .lang-switcher {
+            display: flex; gap: 8px; flex-wrap: wrap;
+            justify-content: center; margin-bottom: 32px;
+        }
+        .lang-switcher button {
+            padding: 8px 16px; border: 1px solid #d2d2d7; border-radius: 20px;
+            background: white; cursor: pointer; font-size: 0.85rem; font-weight: 500;
+            transition: all 0.2s ease;
+            color: #1d1d1f;
+        }
+        .lang-switcher button.active, .lang-switcher button:hover {
+            background: #0071e3; color: white; border-color: #0071e3;
+        }
+        .card {
+            background: white; border-radius: 16px; padding: 24px;
+            margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.04);
+            transition: transform 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+        }
+        .card h2 { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; color: #0071e3; border-bottom: 1px solid #f5f5f7; padding-bottom: 8px; }
+        .card p, .card ul { font-size: 0.93rem; color: #3a3a3c; }
+        .card p { margin-bottom: 10px; }
+        .card p:last-child { margin-bottom: 0; }
+        .card ul { padding-left: 20px; margin-bottom: 10px; }
+        .card ul li { margin-bottom: 6px; }
+        .card strong { color: #1d1d1f; }
+        footer { text-align: center; margin-top: 40px; color: #8e8e93; font-size: 0.85rem; padding-bottom: 40px; border-top: 1px solid #d2d2d7; padding-top: 24px; }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>InExGenie</h1>
+    <p id="header-subtitle">Nutzungsbedingungen / Terms of Use (EULA)</p>
+</header>
+
+<div class="nav-links">
+    <a href="index.html">Datenschutzerklärung (Privacy Policy)</a>
+    <a href="impressum.html">Impressum (Legal Notice)</a>
+</div>
+
+<div class="lang-switcher">
+    <button class="active" onclick="setLang('de')">Deutsch</button>
+    <button onclick="setLang('en')">English</button>
+    <button onclick="setLang('fr')">Français</button>
+    <button onclick="setLang('it')">Italiano</button>
+    <button onclick="setLang('es')">Español</button>
+    <button onclick="setLang('nl')">Nederlands</button>
+    <button onclick="setLang('da')">Dansk</button>
+    <button onclick="setLang('hu')">Magyar</button>
+    <button onclick="setLang('pl')">Polski</button>
+    <button onclick="setLang('sv')">Svenska</button>
+</div>
+
+<!-- DEUTSCH -->
+<div class="lang-content active" id="lang-de">
+    <div class="card">
+        <h2>1. Geltungsbereich &amp; Allgemeines</h2>
+        <p>Diese Nutzungsbedingungen (EULA) regeln die Nutzung der Mobilanwendung „InExGenie“ (im Folgenden „App“). Mit der Installation und Nutzung der App stimmst du diesen Bedingungen zu. Die App ist ein reines Offline-Werkzeug zur Budget- und Finanzverwaltung.</p>
+    </div>
+    <div class="card">
+        <h2>2. Leistungsumfang &amp; Datenhaltung</h2>
+        <p>Die App stellt Funktionen zur Erfassung von Einnahmen und Ausgaben, Vertragsverwaltung, Budgetierung und statistischen Auswertung bereit. **Sämtliche Daten verbleiben lokal auf deinem Endgerät.** Es gibt keine Synchronisation auf fremde Server durch uns. Der Export und die Sicherung der Daten liegen in deiner alleinigen Verantwortung.</p>
+    </div>
+    <div class="card">
+        <h2>3. Nutzungsrechte &amp; Einschränkungen</h2>
+        <p>Du erhältst ein einfaches, nicht übertragbares, nicht unterlizenzierbares Recht, die App auf deinen iOS-Geräten zu privaten Zwecken zu nutzen. Es ist untersagt, die App zu dekompilieren, zurückzuentwickeln (Reverse Engineering) oder zu modifizieren.</p>
+    </div>
+    <div class="card">
+        <h2>4. Gewährleistung &amp; Haftungsausschluss</h2>
+        <p>Die App wird „wie besehen“ bereitgestellt. Wir übernehmen keine Garantie für die ständige Verfügbarkeit oder die absolute Fehlerfreiheit der Berechnungen und Statistiken. **Die App stellt keine Finanz-, Anlage-, Steuer- oder Rechtsberatung dar.** Die Haftung des Entwicklers für Datenverlust, entgangenen Gewinn oder sonstige finanzielle Schäden wird ausgeschlossen, es sei denn, es liegt grobe Fahrlässigkeit oder Vorsatz vor.</p>
+    </div>
+    <div class="card">
+        <h2>5. Änderungen der Nutzungsbedingungen</h2>
+        <p>Diese Bedingungen können bei Funktionserweiterungen angepasst werden. Die aktuelle Fassung ist stets in der App oder auf dieser Website abrufbar.</p>
+        <p><strong>Stand:</strong> Mai 2026</p>
+    </div>
+</div>
+
+<!-- ENGLISH -->
+<div class="lang-content" id="lang-en">
+    <div class="card">
+        <h2>1. Scope &amp; General Information</h2>
+        <p>These terms of use (EULA) govern the use of the mobile application "InExGenie" (hereinafter "App"). By installing and using the App, you agree to these terms. The App is a purely offline tool for budget and financial management.</p>
+    </div>
+    <div class="card">
+        <h2>2. Scope of Service &amp; Data Storage</h2>
+        <p>The App provides features for recording income and expenses, contract management, budgeting, and statistical analysis. **All data remains locally on your terminal device.** There is no synchronization to external servers by us. Exporting and backing up your data is your sole responsibility.</p>
+    </div>
+    <div class="card">
+        <h2>3. License Rights &amp; Restrictions</h2>
+        <p>You are granted a simple, non-transferable, non-sublicensable right to use the App on your iOS devices for private purposes. You may not decompile, reverse engineer, or modify the App.</p>
+    </div>
+    <div class="card">
+        <h2>4. Warranty &amp; Disclaimer of Liability</h2>
+        <p>The App is provided "as is". We do not guarantee continuous availability or the absolute accuracy of calculations and statistics. **The App does not constitute financial, investment, tax, or legal advice.** The developer's liability for data loss, lost profits, or other financial damages is excluded, unless caused by gross negligence or willful intent.</p>
+    </div>
+    <div class="card">
+        <h2>5. Changes to the Terms</h2>
+        <p>These terms may be updated to adapt to new features. The current version is always accessible in the App or on this website.</p>
+        <p><strong>As of:</strong> May 2026</p>
+    </div>
+</div>
+
+<!-- FRANÇAIS -->
+<div class="lang-content" id="lang-fr">
+    <div class="card">
+        <h2>1. Champ d'application</h2>
+        <p>Ces conditions d'utilisation (EULA) régissent l'utilisation de l'application mobile « InExGenie ». En installant et en utilisant l'application, vous acceptez ces conditions. L'application est un outil purement hors ligne pour la gestion du budget et des finances.</p>
+    </div>
+    <div class="card">
+        <h2>2. Stockage des données</h2>
+        <p>Toutes les données restent localement sur votre appareil. Aucune synchronisation externe n'est effectuée par nos soins. La sauvegarde et l'exportation des données relèvent de votre seule responsabilité.</p>
+    </div>
+    <div class="card">
+        <h2>3. Droits d'utilisation</h2>
+        <p>Vous bénéficiez d'un droit d'utilisation simple, non transférable et non transférable à des fins privées.</p>
+    </div>
+    <div class="card">
+        <h2>4. Exclusion de responsabilité</h2>
+        <p>L'application est fournie « en l'état ». **L'application ne constitue pas un conseil financier, d'investissement, fiscal ou juridique.** La responsabilité du développeur pour la perte de données ou d'autres dommages financiers est exclue, sauf en cas de négligence grave ou d'intention délibérée.</p>
+    </div>
+    <div class="card">
+        <h2>5. Modifications</h2>
+        <p>Ces conditions peuvent être modifiées. La version actuelle est toujours disponible sur ce site.</p>
+    </div>
+</div>
+
+<!-- ITALIANO -->
+<div class="lang-content" id="lang-it">
+    <div class="card">
+        <h2>1. Ambito di applicazione</h2>
+        <p>Le presenti condizioni d'uso (EULA) disciplinano l'utilizzo dell'applicazione mobile « InExGenie ». Installando e utilizzando l'app, l'utente accetta i presenti termini. L'applicazione è uno strumento puramente offline per la gestione del budget e delle finanze personali.</p>
+    </div>
+    <div class="card">
+        <h2>2. Archiviazione dei dati</h2>
+        <p>Tutti i dati rimangono localmente sul tuo dispositivo. Non viene eseguita alcuna sincronizzazione esterna da parte nostra. Il backup e l'esportazione dei dati sono di esclusiva responsabilità dell'utente.</p>
+    </div>
+    <div class="card">
+        <h2>3. Diritti d'uso</h2>
+        <p>All'utente viene concesso un diritto d'uso semplice, non trasferibile e privato.</p>
+    </div>
+    <div class="card">
+        <h2>4. Esclusione di responsabilità</h2>
+        <p>L'applicazione viene fornita «così com'è». **L'app non costituisce consulenza finanziaria, di investimento, fiscale o legale.** Si esclude qualsiasi responsabilità dello sviluppatore per la perdita di dati o altri danni finanziari, salvo in caso di colpa grave o dolo.</p>
+    </div>
+    <div class="card">
+        <h2>5. Modifiche</h2>
+        <p>Le presenti condizioni possono essere modificate. La versione aggiornata è sempre disponibile su questo sito.</p>
+    </div>
+</div>
+
+<!-- ESPAÑOL -->
+<div class="lang-content" id="lang-es">
+    <div class="card">
+        <h2>1. Ámbito de aplicación</h2>
+        <p>Estas condiciones de uso (EULA) regulan el uso de la aplicación móvil « InExGenie ». Al instalar y utilizar la aplicación, acepta estas condiciones. La aplicación es una herramienta puramente local para la gestión del presupuesto y las finanzas.</p>
+    </div>
+    <div class="card">
+        <h2>2. Almacenamiento de datos</h2>
+        <p>Todos los datos permanecen localmente en su dispositivo. No realizamos ninguna sincronización externa. La copia de seguridad y la exportación de los datos son responsabilidad exclusiva del usuario.</p>
+    </div>
+    <div class="card">
+        <h2>3. Derechos de uso</h2>
+        <p>Se le concede un derecho de uso sencillo, no transferible y para fines privados.</p>
+    </div>
+    <div class="card">
+        <h2>4. Exclusión de responsabilidad</h2>
+        <p>La aplicación se proporciona «tal cual». **La aplicación no constituye asesoramiento financiero, de inversión, fiscal ni jurídico.** Se excluye la responsabilidad del desarrollador por pérdida de datos u otros daños financieros, excepto en caso de negligencia grave o dolo.</p>
+    </div>
+    <div class="card">
+        <h2>5. Cambios</h2>
+        <p>Estas condiciones pueden modificarse. La versión actual siempre está disponible en este sitio.</p>
+    </div>
+</div>
+
+<!-- NEDERLANDS -->
+<div class="lang-content" id="lang-nl">
+    <div class="card">
+        <h2>1. Toepassingsgebied</h2>
+        <p>Deze gebruiksvoorwaarden (EULA) regelen het gebruik van de mobiele app « InExGenie ». Door de app te installeren en te gebruiken, gaat u akkoord met deze voorwaarden. De app is een puur offline hulpmiddel voor budget- en financieel beheer.</p>
+    </div>
+    <div class="card">
+        <h2>2. Gegevensopslag</h2>
+        <p>Alle gegevens blijven lokaal op uw apparaat staan. Er vindt geen externe synchronisatie plaats. De back-up en export van gegevens is de exclusieve verantwoordelijkheid van de gebruiker.</p>
+    </div>
+    <div class="card">
+        <h2>3. Gebruiksrechten</h2>
+        <p>U krijgt een eenvoudig, niet-overdraagbaar recht om de app voor privédoeleinden te gebruiken.</p>
+    </div>
+    <div class="card">
+        <h2>4. Uitsluiting van aansprakelijkheid</h2>
+        <p>De app wordt geleverd «zoals deze is». **De app vormt geen financieel, beleggings-, fiscaal of juridisch advies.** Elke aansprakelijkheid van de ontwikkelaar voor gegevensverlies of andere financiële schade is uitgesloten, behalve in het geval van grove nalatigheid of opzet.</p>
+    </div>
+    <div class="card">
+        <h2>5. Wijzigingen</h2>
+        <p>Deze voorwaarden kunnen worden gewijzigd. De actuele versie is altijd beschikbaar op deze site.</p>
+    </div>
+</div>
+
+<!-- DANSK -->
+<div class="lang-content" id="lang-da">
+    <div class="card">
+        <h2>1. Anvendelsesområde</h2>
+        <p>Disse brugsvilkår (EULA) regulerer brugen af mobilapplikationen « InExGenie ». Ved at installere og bruge appen accepterer du disse vilkår. Appen er et rent offline-værktøj til budget- og økonomistyring.</p>
+    </div>
+    <div class="card">
+        <h2>2. Datalagring</h2>
+        <p>Alle data forbliver lokalt på din enhed. Vi udfører ingen ekstern synkronisering. Sikkerhedskopiering og eksport af data er udelukkende brugerens eget ansvar.</p>
+    </div>
+    <div class="card">
+        <h2>3. Brugsrettigheder</h2>
+        <p>Du gives en enkel, ikke-overdragelig brugsret til private formål.</p>
+    </div>
+    <div class="card">
+        <h2>4. Ansvarsfraskrivelse</h2>
+        <p>Appen leveres «som den er». **Appen udgør ikke finansiel, investerings-, skattemæssig eller juridisk rådgivning.** Udviklerens ansvar for datatab eller andre økonomiske skader er udelukket, undtagen i tilfælde af grov uagtsomhed eller forsæt.</p>
+    </div>
+    <div class="card">
+        <h2>5. Ændringer</h2>
+        <p>Disse vilkår kan ændres. Den aktuelle version er altid tilgængelig på dette websted.</p>
+    </div>
+</div>
+
+<!-- MAGYAR -->
+<div class="lang-content" id="lang-hu">
+    <div class="card">
+        <h2>1. Alkalmazási kör</h2>
+        <p>Jelen használati feltételek (EULA) szabályozzák az « InExGenie » mobilalkalmazás használatát. Az alkalmazás telepítésével és használatával elfogadja ezeket a feltételeket. Az alkalmazás egy tisztán offline eszköz a költségvetés és a pénzügyek kezelésére.</p>
+    </div>
+    <div class="card">
+        <h2>2. Adattárolás</h2>
+        <p>Minden adat helyben marad az eszközén. Külső szinkronizálást nem végzünk. Az adatok biztonsági mentése és exportálása kizárólag a felhasználó felelőssége.</p>
+    </div>
+    <div class="card">
+        <h2>3. Felhasználási jogok</h2>
+        <p>Egyszerű, nem átruházható használati jogot kap magáncélra.</p>
+    </div>
+    <div class="card">
+        <h2>4. Jogi nyilatkozat</h2>
+        <p>Az alkalmazást „adott állapotában” biztosítjuk. **Az alkalmazás nem minősül pénzügyi, befektetési, adó- vagy jogi tanácsadásnak.** A fejlesztő nem vállal felelősséget adatvesztésért vagy más pénzügyi károkért, kivéve súlyos gondatlanság vagy szándékosság esetén.</p>
+    </div>
+    <div class="card">
+        <h2>5. Változások</h2>
+        <p>Ezek a feltételek módosíthatók. Az aktuális verzió mindig elérhető ezen az oldalon.</p>
+    </div>
+</div>
+
+<!-- POLSKI -->
+<div class="lang-content" id="lang-pl">
+    <div class="card">
+        <h2>1. Zakres obowiązywania</h2>
+        <p>Niniejsze warunki korzystania (EULA) regulują korzystanie z aplikacji mobilnej « InExGenie ». Instalując i korzystając z aplikacji, akceptujesz te warunki. Aplikacja jest narzędziem działającym wyłącznie w trybie offline do zarządzania budżetem i finansami.</p>
+    </div>
+    <div class="card">
+        <h2>2. Przechowywanie danych</h2>
+        <p>Wszystkie dane pozostają lokalnie na Twoim urządzeniu. Nie wykonujemy żadnej zewnętrznej synchronizacji. Kopia zapasowa i eksport danych należą do wyłącznej odpowiedzialności użytkownika.</p>
+    </div>
+    <div class="card">
+        <h2>3. Prawa do użytkowania</h2>
+        <p>Otrzymujesz proste, niezbywalne prawo do korzystania z aplikacji do celów prywatnych.</p>
+    </div>
+    <div class="card">
+        <h2>4. Wyłączenie odpowiedzialności</h2>
+        <p>Aplikacja jest dostarczana w stanie, w jakim się znajduje („tak jak jest”). **Aplikacja nie stanowi porady finansowej, inwestycyjnej, podatkowej ani prawnej.** Odpowiedzialność dewelopera za utratę danych lub inne szkody finansowe jest wyłączona, z wyjątkiem rażącego niedbalstwa lub umyślnego działania.</p>
+    </div>
+    <div class="card">
+        <h2>5. Zmiany</h2>
+        <p>Niniejsze warunki mogą ulec zmianie. Aktualna wersja jest zawsze dostępna na tej stronie.</p>
+    </div>
+</div>
+
+<!-- SVENSKA -->
+<div class="lang-content" id="lang-sv">
+    <div class="card">
+        <h2>1. Omfattning</h2>
+        <p>Dessa användarvillkor (EULA) reglerar användningen av mobilapplikationen « InExGenie ». Genom att installera och använda appen godkänner du dessa villkor. Appen är ett rent offlineverktyg för budget- och ekonomihantering.</p>
+    </div>
+    <div class="card">
+        <h2>2. Datalagring</h2>
+        <p>Alla data förblir lokalt på din enhet. Vi utför ingen extern synkronisering. Säkerhetskopiering och export av data är helt användarens ansvar.</p>
+    </div>
+    <div class="card">
+        <h2>3. Användarrättigheter</h2>
+        <p>Du beviljas en enkel, icke-överförbar användarrätt för privata ändamål.</p>
+    </div>
+    <div class="card">
+        <h2>4. Friskrivningsklausul</h2>
+        <p>Appen tillhandahålls i befintligt skick. **Appen utgör inte finansiell rådgivning, investeringsrådgivning, skatterådgivning eller juridisk rådgivning.** Utvecklarens ansvar för dataförlust eller andra ekonomiska skador är uteslutet, såvida det inte beror på grov vårdslöshet eller uppsåt.</p>
+    </div>
+    <div class="card">
+        <h2>5. Ändringar</h2>
+        <p>Dessa villkor kan ändras. Den aktuella versionen är alltid tillgänglig på denna webbplats.</p>
+    </div>
+</div>
+
+<footer>
+    <p>InExGenie &copy; 2026 &mdash; Alle Rechte vorbehalten / All rights reserved</p>
+</footer>
+
+<script>
+function setLang(lang) {
+    document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-switcher button').forEach(b => b.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    event.target.classList.add('active');
+}
+</script>
+</body>
+</html>

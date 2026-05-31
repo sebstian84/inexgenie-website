@@ -60,6 +60,12 @@
             color: #8e8e93;
         }
         footer { text-align: center; margin-top: 40px; color: #8e8e93; font-size: 0.85rem; padding-bottom: 40px; border-top: 1px solid #d2d2d7; padding-top: 24px; }
+        .nav-links {
+            display: flex; gap: 16px; justify-content: center; margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+        .nav-links a { color: #0071e3; text-decoration: none; font-weight: 500; }
+        .nav-links a:hover { text-decoration: underline; }
         .lang-content { display: none; }
         .lang-content.active { display: block; }
     </style>
@@ -69,6 +75,11 @@
     <h1>InExGenie</h1>
     <p id="header-subtitle">Datenschutzerklärung / Privacy Policy</p>
 </header>
+
+<div class="nav-links">
+    <a href="impressum.html">Impressum (Legal Notice)</a>
+    <a href="eula.html">Nutzungsbedingungen (EULA)</a>
+</div>
 
 <div class="lang-switcher">
     <button class="active" onclick="setLang('de')">Deutsch</button>
