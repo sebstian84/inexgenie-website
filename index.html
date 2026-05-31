@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InExGenie – Rechtliche Dokumente / Legal Documents</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            padding: 24px 16px;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0 24px;
+        }
+        header h1 { font-size: 2.4rem; font-weight: 700; color: #1d1d1f; letter-spacing: -0.03em; }
+        header p { color: #6e6e73; margin-top: 8px; font-size: 1.05rem; }
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .doc-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.04);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+        }
+        .doc-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,71,227,0.08), 0 8px 24px rgba(0,0,0,0.04);
+            border-color: rgba(0,113,227,0.2);
+        }
+        .doc-info h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #0071e3;
+            margin-bottom: 4px;
+        }
+        .doc-info p {
+            font-size: 0.85rem;
+            color: #8e8e93;
+        }
+        .arrow-icon {
+            font-size: 1.2rem;
+            color: #8e8e93;
+            transition: transform 0.2s ease;
+        }
+        .doc-card:hover .arrow-icon {
+            color: #0071e3;
+            transform: translateX(4px);
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #8e8e93;
+            font-size: 0.85rem;
+            padding-bottom: 20px;
+            border-top: 1px solid #d2d2d7;
+            padding-top: 24px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>InExGenie</h1>
+    <p>Rechtliche Dokumente / Legal Documents</p>
+</header>
+
+<div class="links-container">
+    <a href="impressum.html" class="doc-card">
+        <div class="doc-info">
+            <h2>Impressum</h2>
+            <p>Legal Notice / Dtails du producteur</p>
+        </div>
+        <span class="arrow-icon">→</span>
+    </a>
+    
+    <a href="datenschutzerklaerung.html" class="doc-card">
+        <div class="doc-info">
+            <h2>Datenschutzerklärung</h2>
+            <p>Privacy Policy / RGPD / TDDDG</p>
+        </div>
+        <span class="arrow-icon">→</span>
+    </a>
+    
+    <a href="eula.html" class="doc-card">
+        <div class="doc-info">
+            <h2>Nutzungsbedingungen</h2>
+            <p>Terms of Use / EULA / Consumer Protection</p>
+        </div>
+        <span class="arrow-icon">→</span>
+    </a>
+</div>
+
+<footer>
+    <p>InExGenie &copy; 2026 &mdash; Alle Rechte vorbehalten / All rights reserved</p>
+</footer>
+</body>
+</html>
